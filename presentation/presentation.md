@@ -420,7 +420,7 @@ sceneLayer.definitionExpression =
 <div class="code-snippet">
 <pre><code class="lang-js">// create the integrated mesh layer
 var layer = new IntegratedMeshLayer({
-  url: ".../Yosemite_Sample/SceneServer"
+  url: ".../Girona_Spain/SceneServer"
 });
 
 // create a map with the layer added
@@ -435,10 +435,10 @@ var map = new Map({
 var view = new SceneView({
   container: "viewDiv",
   map: map,
-  camera: {
-    position: [-1.2567, 51.7517, 123.6058],
-    heading: 41.4698,
-    tilt: 75.9609
+  camera:  {
+    position: [2.82434683, 41.98238212, 167.97381],
+    heading: 341.69,
+    tilt: 66.56
   }
 });
 </code></pre>
@@ -1036,7 +1036,8 @@ portal.load().then(function() {
 
 - Support for large feature layers with line and polygon geometry
 
-<img src="images/polygon.png"/>
+<!-- <img src="images/polygons-footprints.png" style="width: 600px"/> -->
+<img src="images/polygons-zip.png" style="width: 700px"/>
 
 ---
 

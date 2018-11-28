@@ -36,8 +36,8 @@
          ********************/
 
         var layer = new IntegratedMeshLayer({
-          url: "https://tiles.arcgis.com/tiles/FQD0rKU8X5sAQfh8/arcgis/rest/services/VRICON_Yosemite_Sample_Integrated_Mesh_scene_layer/SceneServer",
-          copyright: "Data provided by <a href='www.vricon.com'>VRICON</a>."
+          url: "http://tiles.arcgis.com/tiles/z2tnIkrLQ2BRzr6P/arcgis/rest/services/Girona_Spain/SceneServer/",
+          copyright: "Data provided by <a href='http://www.icgc.cat/'>Institute Cartografic i Geologic Catalunya (ICGC)</a>."
         });
 
         /**************************
@@ -45,27 +45,18 @@
          *************************/
 
         var map = new Map({
-          basemap: null,
+          basemap: "satellite",
           layers: [layer],
-          ground: {
-            opacity: 0
-          }
+          ground: "world-elevation"
         });
 
         window.view = new SceneView({
           container: "viewDiv",
           map: map,
           camera: {
-            position: {
-              x: -13314225,
-              y: 4543000,
-              z: 1446,
-              spatialReference: {
-                wkid: 3857
-              }
-            },
-            tilt: 84,
-            heading: 85
+            position: [2.82434683, 41.98238212, 167.97381],
+            heading: 341.69,
+            tilt: 66.56
           }
         });
 
