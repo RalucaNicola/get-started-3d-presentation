@@ -1036,7 +1036,6 @@ portal.load().then(function() {
 
 - Support for large feature layers with line and polygon geometry
 
-<!-- <img src="images/polygons-footprints.png" style="width: 600px"/> -->
 <img src="images/polygons-zip.png" style="width: 700px"/>
 
 ---
@@ -1045,6 +1044,7 @@ portal.load().then(function() {
 
 - Points can now be filtered based on point classes
 
+<img src="images/pclfilter.gif" style="width: 700px"/>
 
 ---
 
