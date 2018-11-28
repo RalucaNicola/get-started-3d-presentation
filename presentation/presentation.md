@@ -420,8 +420,7 @@ sceneLayer.definitionExpression =
 <div class="code-snippet">
 <pre><code class="lang-js">// create the integrated mesh layer
 var layer = new IntegratedMeshLayer({
-  url: ".../Yosemite_Sample/SceneServer",
-  copyright: "Data provided by VRICON."
+  url: ".../Yosemite_Sample/SceneServer"
 });
 
 // create a map with the layer added
